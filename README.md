@@ -12,19 +12,19 @@ Simulink program for graduate design
 
 该图为傅里叶变换后的输出电流频域图像。
 
-![img](file:///C:/Users/DELL/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png)
+![img](http://github.com/Chongmo/EMIfilter/raw/master/images/clip_image004.png)
 
 为选择合适的滤波器，将其纵坐标转化为以dB为单位的图像，可知我们要使150Hz的谐波过滤掉，低通滤波器在该频率应当衰减23dB左右。
 
-![img](file:///C:/Users/DELL/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+![img](http://github.com/Chongmo/EMIfilter/raw/master/images/clip_image006.jpg)
 
 将目标滤波进行归一化操作，以确定滤波器的阶数。我暂时选择了切比雪夫滤波器。
 
-![img](file:///C:/Users/DELL/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+![img](http://github.com/Chongmo/EMIfilter/raw/master/images/clip_image008.jpg)
 
 通带纹波为3dB时，二阶的滤波器即可满足要求。
 
-![img](file:///C:/Users/DELL/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png)
+![img](http://github.com/Chongmo/EMIfilter/raw/master/images/clip_image010.png)
 
 原电流为i，我放的切比雪夫滤波器为蓝线，红线是默认状态下的低通滤波器。可以看到在阶数增加以及通带纹波增加的情况下波形的幅值会有一定衰减，但如果阶数过低的话，滤波效果可能会减弱。
 
