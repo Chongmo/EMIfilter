@@ -8,7 +8,7 @@ Simulink program for graduate design
 
 今日工作内容：给现在的逆变器按正常的方法加一个滤波器
 
-![img](http://https://github.com/Chongmo/EMIfilter/blob/master/images/clip_image002.png)
+![img](http://github.com/Chongmo/EMIfilter/blob/master/images/clip_image002.png)
 
 该图为傅里叶变换后的输出电流频域图像。
 
